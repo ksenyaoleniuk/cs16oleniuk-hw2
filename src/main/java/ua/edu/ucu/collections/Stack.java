@@ -15,7 +15,7 @@ public class Stack {
         this.LinkedStructure = new ImmutableLinkedList(null);
     }
     public Object peek(){
-        return LinkedStructure.get(0);
+        return LinkedStructure.getLast();
     }
     public Object pop(){
         Object outObject = LinkedStructure.get(LinkedStructure.size() - 1);

@@ -29,8 +29,8 @@ public class StackTest {
         int expected = 5;
         stk.pop(1);
         stk.pop(5);
-        Object actual = stk.peek();
-        assertEquals(expected, actual);
+
+        assertEquals(expected,stk.peek());
     }
 
 
